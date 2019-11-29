@@ -14,7 +14,7 @@ instructor: ["Lise Doucette","Mariana Jardim","Jordan Pedersen"] # boxed, comma-
 helper: ["Sarah Forbes","Deena Yanofsky","May Chan"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["deena.yanofsky@utoronto.ca","jordan.pedersen@utoronto.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:   https://pad.carpentries.org/2020-01-08-utsc          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "82669880839"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -51,7 +51,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="(https://www.eventbrite.com/e/library-carpentry-workshop-at-the-university-of-toronto-scarborough-library-tickets-82669880839"
   frameborder="0"
   width="100%"
   height="280px"
