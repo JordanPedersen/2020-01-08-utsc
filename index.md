@@ -232,7 +232,7 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. ***UPDATE: Because of issues with our first collaborative etherpad, we have opened a second etherpad which will be used for the remainder of the workshop and pasted all the text from the first one in it: https://pad.carpentries.org/2020-01-09-utsc . The original pad still exists, and you can reference it if you wish to look back on it and see what you contributed, as the new document is not colour-coded by contribution.
 </p>
 {% endif %}
 
